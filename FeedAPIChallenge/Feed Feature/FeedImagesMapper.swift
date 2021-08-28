@@ -17,7 +17,7 @@ final class FeedImagesMapper {
 		}
 	}
 
-	struct Item: Decodable {
+	private struct Item: Decodable {
 		let image_id: UUID
 		let image_desc: String?
 		let image_loc: String?
